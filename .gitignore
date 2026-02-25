@@ -1,0 +1,13 @@
+# 🔒 NO subir secretos
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Entornos
+.venv/
+venv/
+
+# OS
+.DS_Store
