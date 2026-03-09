@@ -1,13 +1,17 @@
-# 🔒 NO subir secretos
+# Secrets
 .env
+.env.*
+!.env.example
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
 
-# Entornos
+# Virtual environments
 .venv/
 venv/
 
 # OS
 .DS_Store
+Thumbs.db
