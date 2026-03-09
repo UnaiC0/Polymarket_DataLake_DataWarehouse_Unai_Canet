@@ -54,7 +54,7 @@ Top 5 eventos por numero de markets:
 
 Grafico:
 
-![Top 5 eventos por numero de markets](report_assets/top5_eventos_markets.png)
+
 
 ## 5) Consistencia referencial
 
