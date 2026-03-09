@@ -1,4 +1,4 @@
-# Reporte de Volumetria (Actualizado)
+# Reporte de Volumetria 
 
 - Fecha de generacion: 2026-03-09
 - Fuente real: tablas Delta locales `polymarket/bronze/{markets,events,tags,series}`
