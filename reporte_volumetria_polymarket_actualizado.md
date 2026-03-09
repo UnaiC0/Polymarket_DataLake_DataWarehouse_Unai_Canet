@@ -20,12 +20,49 @@
 | tags | 5,094 |
 | series | 1,114 |
 
+Grafico simple (pie):
+
+```mermaid
+pie showData
+    title Participacion por entidad
+    "markets (462,318)" : 462318
+    "events (100,000)" : 100000
+    "tags (5,094)" : 5094
+    "series (1,114)" : 1114
+```
+
+Barras rapidas (% del total):
+
+```text
+markets | ######################################## | 81.3%
+events  | #########                                | 17.6%
+tags    | #                                        | 0.9%
+series  | #                                        | 0.2%
+```
+
 ## 3) Estado de markets
 
 | Metrica | True | False | % True |
 |---|---:|---:|---:|
 | active | 462,318 | 0 | 100.0% |
 | closed | 433,198 | 29,120 | 93.7% |
+
+Grafico simple (closed):
+
+```mermaid
+pie showData
+    title Estado closed en markets
+    "closed = true (433,198)" : 433198
+    "closed = false (29,120)" : 29120
+```
+
+Barras rapidas:
+
+```text
+active=true   | ######################################## | 100.0%
+closed=true   | #####################################    | 93.7%
+closed=false  | ###                                      | 6.3%
+```
 
 ## 4) Relacion markets -> events
 
@@ -43,6 +80,16 @@ Top 5 eventos por numero de markets:
 | 33319 | 144 |
 | 33320 | 144 |
 | 201371 | 128 |
+
+Grafico simple (top 5, escala sobre maximo=147):
+
+```text
+34437  | ############################## | 147
+34438  | ############################## | 147
+33319  | #############################  | 144
+33320  | #############################  | 144
+201371 | ##########################     | 128
+```
 
 ## 5) Consistencia referencial
 
